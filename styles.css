@@ -1,0 +1,33 @@
+.body {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.welcome-message {
+    padding-left: 20%;
+}
+
+.card {
+    margin-left: 10px;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+}
+
+.button-style .btn {
+    width: 100px;
+    margin: 2px 2px 2px 2px;
+}
+
+#save-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#butonRestart {
+    margin-left: 28%;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

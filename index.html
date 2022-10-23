@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guess the button</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <body class="body">
+        <div class="welcome-message">
+            <h1>Welcome, visitor!</h1>
+        </div>
+        <div class="card" style="width: 550px" id="card-header">
+            <div class="card-header" style="width: 550px">Please enter the number of buttons you would like to have</div>
+            <br>
+            <div class="button-style" id="input-buttons">
+                <input class="form-control" id="numberOfButtons">
+                <button type="button" class="btn btn-secondary" onclick="save()" id="save-button">Confirm</button>
+                <br>
+            </div>
+        </div>
+        <div>
+            <button type="button" class="btn btn-success" id="butonRestart" onclick="restart()">Restart</button>
+        </div>
+        <script src="script.js"></script>
+  </body>
+</html>
